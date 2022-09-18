@@ -18,7 +18,7 @@ Ogni giocatore può occupare una sola posizione durante il suo turno e per vince
 <br>
 ![image](https://user-images.githubusercontent.com/18946343/190928704-69fcf2a0-237b-42bc-8827-fdf34eb3ef95.png)
 <br>
-La messa in fila può essere orizzontale, verticale oppure diagonale.
+La messa in fila può essere orizzontale, verticale oppure diagonale (nell'esempio di sopra, x ha vinto mettendo 3 x diagonalmente in fila).
 <br>
 Buon divertimento!
 
