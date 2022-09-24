@@ -107,7 +107,7 @@ public class filetto extends JPanel {
 			
 			//Se vogliono la rivincita, riparto
 			//altrimenti chiudo tutto
-			if(dialogResult == JOptionPane.YES_OPTION) resetTheButtons();
+			if(dialogResult == JOptionPane.YES_OPTION) reset();
 			else System.exit(0);
 		}
 		
@@ -123,7 +123,7 @@ public class filetto extends JPanel {
 			
 			//Se vogliono fare una nuova partita, riparto
 			//altrimenti chiudo tutto
-			if(dialogResult == JOptionPane.YES_OPTION) resetTheButtons();
+			if(dialogResult == JOptionPane.YES_OPTION) reset();
 			else System.exit(0);
 		}
 	}
@@ -132,7 +132,7 @@ public class filetto extends JPanel {
 	
 	//Con questo metodo azzero tutti i quadrati
 	//e comincio una nuova partita
-	private void resetTheButtons() {
+	private void reset() {
 		giocatore = 'x';
 		for(int i=0; i<9; i++) {
 			  
