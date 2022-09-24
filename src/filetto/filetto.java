@@ -20,19 +20,16 @@ public class filetto extends JPanel {
 	
 	public filetto() {
 		setLayout(new GridLayout(3,3));
-		creazione_celle();
 		mostra_messaggio();
+		creazione_celle();
 		
 	}
 	
 	//Creo un metodo per mostrare il messaggio di benvenuto iniziale
 	public void mostra_messaggio()
 	{
-		JFrame window = new JFrame("Filetto by Francesco Bucciantini");
-        window.setBounds(500,500,500,500); //Area di gioco
-        window.setVisible(true); //Mi assicuro che tutto sia visibile
-        window.setLocationRelativeTo(null); //Mi assicuro che sia centrato
 		JOptionPane.showMessageDialog(null, "Benvenuto su Filetto, un gioco gratuito ed open source\nrealizzato in Java da Francesco Bucciantini per dispositivi touch.\n\nREGOLAMENTO:\nIl gioco prevede due giocatori che utilizzano lo stesso dispostivo touch.\nCi sono 9 possibili posizioni che un giocatore può scegliere facendo tap.\nIl primo giocatore che effettua tap sarà x, mentre il secondo sarà o.\nOgni giocatore può occupare una sola posizione durante il suo turno\ne per vincere bisogna mettere in fila per tre volte le x oppure le o\nda cui appunto il nome filetto e la messa in fila può essere\norizzontale, verticale oppure diagonale.\n Buon divertimento!", "Benvenuto", JOptionPane.INFORMATION_MESSAGE);
+		
 	}
 	
 	//Creo un metodo per creare le 9 possibili celle vuote
